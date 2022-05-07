@@ -1,12 +1,23 @@
-import React from 'react'
-import Navbar from './components/navbar/Navbar'
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer"
+import Pricing from "./components/Pricing/Pricing"
+import Services from "./components/Services/Services"
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-    </div>
-  )
+    <BrowserRouter>
+      <div>
+        <Navbar fixed="top" />
+        <Routes>
+        <Route path="/Services" element={<Services/>}/>
+        <Route path="/Pricing" element={<Pricing/>}/>
+        </Routes>
+        <Footer fixed="bottom" />
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
