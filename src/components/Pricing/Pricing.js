@@ -2,10 +2,10 @@ import React from "react";
 
 import React from 'react'
 
-function Contact() {
+function Pricing() {
   return (
-    <div>Contact</div>
+    <div>Pricing</div>
   )
 }
 
-export default Contact
+export default Pricing
