@@ -7,6 +7,7 @@ import {
 function Contact() {
   return (
   <Container>
+    <h1 className="text-center" >Contact Us!</h1>
       <Form.Group className="mb-3">
         <Form.Label>Name</Form.Label>
         <Form.Control placeholder="Name" />
@@ -30,6 +31,11 @@ function Contact() {
       <Form.Group className="mb-3">
         <Form.Label>Phone Number</Form.Label>
         <Form.Control placeholder="(123) 123-4567" />
+      </Form.Group>
+
+      <Form.Group className="mb-3">
+        <Form.Label>Details</Form.Label>
+        <Form.Control placeholder="Details" className="w-20" />
       </Form.Group>
 
       <Form.Group className="mb-3">
