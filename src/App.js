@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 import Navigation from "./components/navbar/Navigation";
 import Footer from "./components/footer/Footer"
-import Pricing from "./components/Pricing/Pricing"
-import WebDesign from "./components/Services/WebDesign"
-import SocialMedia from "./components/Services/SocialMedia";
-import LogoDesign from "./components/Services/LogoDesign";
+import Pricing from "./components/pricing/Pricing"
+import WebDesign from "./components/services/WebDesign"
+import SocialMedia from "./components/services/SocialMedia";
+import LogoDesign from "./components/services/LogoDesign";
 import Contact from "./components/contact/Contact"
 
 
