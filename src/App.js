@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
+import Navigation from "./components/navbar/Navigation";
 import Footer from "./components/footer/Footer"
 import Pricing from "./components/Pricing/Pricing"
 import Services from "./components/Services/Services"
@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Navbar fixed="top" />
+        <Navigation fixed="top" />
         <Routes>
         <Route path="/Services" element={<Services/>}/>
         <Route path="/Pricing" element={<Pricing/>}/>
