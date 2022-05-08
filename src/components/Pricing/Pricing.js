@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import { Container } from "react-bootstrap";
 
 function Pricing() {
   return (
-    <div>Pricing</div>
-  )
+    <Container>
+      <img
+        alt="Pricing-List"
+        src="/Price List.png"
+        width="auto"
+        height="auto"
+        className="img-fluid"
+      />{" "}
+    </Container>
+  );
 }
 
-export default Pricing
+export default Pricing;

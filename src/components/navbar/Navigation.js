@@ -1,5 +1,10 @@
 import React from "react";
-import { Container, Navbar, Nav, NavDropdown, NavLink } from "react-bootstrap";
+import { 
+  Container, 
+  Navbar, 
+  Nav, 
+  NavDropdown, 
+  NavLink, } from "react-bootstrap";
 
 function Navigation() {
   return (
@@ -20,7 +25,7 @@ function Navigation() {
                 
         <NavDropdown title="Services" id="basic-nav-dropdown">
           <NavDropdown.Item href="/Web-Design">Web Design</NavDropdown.Item>
-          <NavDropdown.Item href="/Social-Media-Integration">Social Media Integration</NavDropdown.Item>
+          <NavDropdown.Item href="/Social-Media">Social Media Integration</NavDropdown.Item>
           <NavDropdown.Item href="/Logo-Design">Logo Design</NavDropdown.Item>
           {/* <NavDropdown.Divider /> */}
           {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
@@ -29,7 +34,7 @@ function Navigation() {
         <Nav.Link href="/Pricing">Pricing</Nav.Link>
 
         <Nav.Link href="/Contact">Contact</Nav.Link>
-      
+
       </Nav>
     </Navbar.Collapse>
   </Container>
