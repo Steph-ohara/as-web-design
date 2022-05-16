@@ -35,12 +35,12 @@ function Contact() {
 
       <Form.Group className="mb-3">
         <Form.Label>Details</Form.Label>
-        <Form.Control placeholder="Details" className="w-20" />
+        <Form.Control placeholder="Details" as="textarea" className="w-20" style={{ height: '100px' }} />
       </Form.Group>
 
-      <Form.Group className="mb-3">
+      {/* <Form.Group className="mb-3">
         <Form.Check type="checkbox" label="Can't check this" />
-      </Form.Group>
+      </Form.Group> */}
       </Container> 
   );
 }

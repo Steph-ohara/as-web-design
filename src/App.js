@@ -24,7 +24,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         </Routes>
         
-        <Footer fixed="bottom" />
+        <Footer className='position-absolute bottom-0 start-50 translate-middle-x' />
       </div>
     </BrowserRouter>
   );
