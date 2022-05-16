@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 function Pricing() {
   return (
-    <Container>
+    <Container className='pt-4'>
       <img
         alt="Pricing-List"
         src="/Price List.png"

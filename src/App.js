@@ -9,6 +9,7 @@ import SocialMedia from "./components/services/SocialMedia";
 import LogoDesign from "./components/services/LogoDesign";
 import Contact from "./components/contact/Contact"
 import About from "./components/about/About"
+import Homepage from "./components/homepage/Homepage";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Navigation fixed="top" />
         
         <Routes>
+        <Route path="/" element={<Homepage/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Web-Design" element={<WebDesign/>}/>
         <Route path="/Social-Media" element={<SocialMedia/>}/>
@@ -26,7 +28,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         </Routes>
         
-        <Footer className='position-absolute bottom-0 start-50 translate-middle-x' />
+        <Footer sticky='bottom' />
       </div>
     </BrowserRouter>
   );
