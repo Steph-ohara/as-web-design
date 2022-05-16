@@ -8,6 +8,7 @@ import WebDesign from "./components/services/WebDesign"
 import SocialMedia from "./components/services/SocialMedia";
 import LogoDesign from "./components/services/LogoDesign";
 import Contact from "./components/contact/Contact"
+import About from "./components/about/About"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Navigation fixed="top" />
         
         <Routes>
+        <Route path="/About" element={<About/>}/>
         <Route path="/Web-Design" element={<WebDesign/>}/>
         <Route path="/Social-Media" element={<SocialMedia/>}/>
         <Route path="/Logo-Design" element={<LogoDesign/>}/>
